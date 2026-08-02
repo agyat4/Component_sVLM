@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Secrets - never commit API keys
+.env
+
+# Model checkpoints and large weight files
+checkpoints/
+outputs/
+*.safetensors
+*.bin
+*.pt
+*.pth
+
+# Dataset - raw images stay local, not on GitHub
+data/raw_images/
+
+# Logs
+*.log
+wandb/
+
+# OS junk files
+.DS_Store
+Thumbs.db
